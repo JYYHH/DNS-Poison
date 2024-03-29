@@ -2,17 +2,17 @@
 ; <<>> DiG 9.8.1-P1 <<>> www.example.edu
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57527
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57975
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 2
 
 ;; QUESTION SECTION:
 ;www.example.edu.		IN	A
 
 ;; ANSWER SECTION:
-www.example.edu.	259144	IN	A	1.1.1.1
+www.example.edu.	259188	IN	A	1.1.1.1
 
 ;; AUTHORITY SECTION:
-example.edu.		172531	IN	NS	ns.dnslabattacker.net.
+example.edu.		172731	IN	NS	ns.dnslabattacker.net.
 
 ;; ADDITIONAL SECTION:
 ns.dnslabattacker.net.	604800	IN	A	192.168.15.7
@@ -20,6 +20,6 @@ ns.dnslabattacker.net.	604800	IN	AAAA	::1
 
 ;; Query time: 1 msec
 ;; SERVER: 192.168.15.4#53(192.168.15.4)
-;; WHEN: Fri Mar 29 12:46:41 2024
+;; WHEN: Fri Mar 29 14:18:34 2024
 ;; MSG SIZE  rcvd: 128
 

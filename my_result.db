@@ -4,23 +4,23 @@
 ;
 ; Cache dump of view '_default' (cache _default)
 ;
-$DATE 20240329194235
+$DATE 20240329211744
 ; authanswer
-.			518377	IN NS	a.root-servers.net.
-			518377	IN NS	b.root-servers.net.
-			518377	IN NS	c.root-servers.net.
-			518377	IN NS	d.root-servers.net.
-			518377	IN NS	e.root-servers.net.
-			518377	IN NS	f.root-servers.net.
-			518377	IN NS	g.root-servers.net.
-			518377	IN NS	h.root-servers.net.
-			518377	IN NS	i.root-servers.net.
-			518377	IN NS	j.root-servers.net.
-			518377	IN NS	k.root-servers.net.
-			518377	IN NS	l.root-servers.net.
-			518377	IN NS	m.root-servers.net.
+.			518381	IN NS	a.root-servers.net.
+			518381	IN NS	b.root-servers.net.
+			518381	IN NS	c.root-servers.net.
+			518381	IN NS	d.root-servers.net.
+			518381	IN NS	e.root-servers.net.
+			518381	IN NS	f.root-servers.net.
+			518381	IN NS	g.root-servers.net.
+			518381	IN NS	h.root-servers.net.
+			518381	IN NS	i.root-servers.net.
+			518381	IN NS	j.root-servers.net.
+			518381	IN NS	k.root-servers.net.
+			518381	IN NS	l.root-servers.net.
+			518381	IN NS	m.root-servers.net.
 ; authanswer
-			518377	RRSIG	NS 8 0 518400 20240411170000 (
+			518381	RRSIG	NS 8 0 518400 20240411170000 (
 					20240329160000 30903 .
 					kMCp3USvjr2ThpoYJpVJeZ4peGYIrqC7Mf9d
 					N/xx/fKfU8dS83S81Bz0BOOpkYe+pmRG3aPU
@@ -33,25 +33,25 @@ $DATE 20240329194235
 					VCKY3cHOumO/u75CJ8YIqkCyXHzEoBmoTL6x
 					YmkMH0wLiL5SrskSXw== )
 ; glue
-edu.			172777	NS	a.edu-servers.net.
-			172777	NS	b.edu-servers.net.
-			172777	NS	c.edu-servers.net.
-			172777	NS	d.edu-servers.net.
-			172777	NS	e.edu-servers.net.
-			172777	NS	f.edu-servers.net.
-			172777	NS	g.edu-servers.net.
-			172777	NS	h.edu-servers.net.
-			172777	NS	i.edu-servers.net.
-			172777	NS	j.edu-servers.net.
-			172777	NS	k.edu-servers.net.
-			172777	NS	l.edu-servers.net.
-			172777	NS	m.edu-servers.net.
+edu.			172781	NS	a.edu-servers.net.
+			172781	NS	b.edu-servers.net.
+			172781	NS	c.edu-servers.net.
+			172781	NS	d.edu-servers.net.
+			172781	NS	e.edu-servers.net.
+			172781	NS	f.edu-servers.net.
+			172781	NS	g.edu-servers.net.
+			172781	NS	h.edu-servers.net.
+			172781	NS	i.edu-servers.net.
+			172781	NS	j.edu-servers.net.
+			172781	NS	k.edu-servers.net.
+			172781	NS	l.edu-servers.net.
+			172781	NS	m.edu-servers.net.
 ; additional
-			86377	DS	35663 13 2 (
+			86381	DS	35663 13 2 (
 					A2E1614291831A4746B5AC52B4B345357687
 					271E85353082741F1CF3D06A4C1D )
 ; additional
-			86377	RRSIG	DS 8 1 86400 20240411170000 (
+			86381	RRSIG	DS 8 1 86400 20240411170000 (
 					20240329160000 30903 .
 					QKUoPNrrlJ5w29YoWTW85O/ygvCR50wyoWKm
 					IqDSNMrxC0CY52zjqnOpRT4ODM9Ey2ixiyyi
@@ -64,19 +64,19 @@ edu.			172777	NS	a.edu-servers.net.
 					iIRcYxQLNn5b8OYSj7fNzn69OhFmmbv/Wagt
 					W0WY7fg3pfP0u4p0Mw== )
 ; authauthority
-example.edu.		172777	NS	ns.dnslabattacker.net.
+example.edu.		172781	NS	ns.dnslabattacker.net.
 ; additional
-			86377	DS	51276 13 2 (
+			86381	DS	51276 13 2 (
 					F3D2B0D4010D3CDC652F02C11C44F5E2E9B8
 					52B4E5F31D1D898DA7AC8CAA15B0 )
 ; additional
-			86377	RRSIG	DS 13 2 86400 20240404064613 (
+			86381	RRSIG	DS 13 2 86400 20240404064613 (
 					20240328053613 30678 edu.
 					MWWOJRazS2Bl0k5ezxc6m5JxtkTaqpHyDA30
 					j0+qR0RsPGDmJkRTEH3pbxGT6ZkiQc/oa1OB
 					Wlm2STMlFcH80g== )
 ; authauthority
-aaaba.example.edu.	3577	\-ANY	;-$NXDOMAIN
+aaaba.example.edu.	3582	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -84,7 +84,7 @@ aaaba.example.edu.	3577	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-ababa.example.edu.	3577	\-ANY	;-$NXDOMAIN
+ababa.example.edu.	3582	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -92,7 +92,7 @@ ababa.example.edu.	3577	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-ababb.example.edu.	3577	\-ANY	;-$NXDOMAIN
+ababb.example.edu.	3582	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -100,7 +100,7 @@ ababb.example.edu.	3577	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-abbbb.example.edu.	3577	\-ANY	;-$NXDOMAIN
+abbbb.example.edu.	3582	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -110,7 +110,7 @@ abbbb.example.edu.	3577	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-bbbbb.example.edu.	3577	\-ANY	;-$NXDOMAIN
+bbbbb.example.edu.	3582	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -118,7 +118,7 @@ bbbbb.example.edu.	3577	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-bbbcb.example.edu.	3578	\-ANY	;-$NXDOMAIN
+bbbcb.example.edu.	3582	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -128,7 +128,7 @@ bbbcb.example.edu.	3578	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-cbbcb.example.edu.	3578	\-ANY	;-$NXDOMAIN
+cbbcb.example.edu.	3582	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -138,7 +138,7 @@ cbbcb.example.edu.	3578	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-cbccb.example.edu.	3578	\-ANY	;-$NXDOMAIN
+cbccb.example.edu.	3582	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -148,7 +148,7 @@ cbccb.example.edu.	3578	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-ccccb.example.edu.	3578	\-ANY	;-$NXDOMAIN
+ccccb.example.edu.	3583	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -158,7 +158,7 @@ ccccb.example.edu.	3578	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-ccdcb.example.edu.	3578	\-ANY	;-$NXDOMAIN
+ccdcb.example.edu.	3583	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -166,7 +166,7 @@ ccdcb.example.edu.	3578	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-ccecb.example.edu.	3578	\-ANY	;-$NXDOMAIN
+ccecb.example.edu.	3583	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -176,7 +176,7 @@ ccecb.example.edu.	3578	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-ccfcb.example.edu.	3579	\-ANY	;-$NXDOMAIN
+ccfcb.example.edu.	3583	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -186,7 +186,7 @@ ccfcb.example.edu.	3579	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-ccgcb.example.edu.	3579	\-ANY	;-$NXDOMAIN
+ccgcb.example.edu.	3583	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -194,7 +194,7 @@ ccgcb.example.edu.	3579	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-ccgcc.example.edu.	3579	\-ANY	;-$NXDOMAIN
+ccgcc.example.edu.	3584	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -204,7 +204,7 @@ ccgcc.example.edu.	3579	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-cchcc.example.edu.	3579	\-ANY	;-$NXDOMAIN
+cchcc.example.edu.	3584	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -212,7 +212,7 @@ cchcc.example.edu.	3579	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-cchcd.example.edu.	3579	\-ANY	;-$NXDOMAIN
+cchcd.example.edu.	3584	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -220,7 +220,7 @@ cchcd.example.edu.	3579	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-cchdd.example.edu.	3579	\-ANY	;-$NXDOMAIN
+cchdd.example.edu.	3584	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -228,7 +228,7 @@ cchdd.example.edu.	3579	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-cdhdd.example.edu.	3580	\-ANY	;-$NXDOMAIN
+cdhdd.example.edu.	3584	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -238,7 +238,7 @@ cdhdd.example.edu.	3580	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-cdhde.example.edu.	3580	\-ANY	;-$NXDOMAIN
+cdhde.example.edu.	3585	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -248,7 +248,7 @@ cdhde.example.edu.	3580	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-cehde.example.edu.	3580	\-ANY	;-$NXDOMAIN
+cehde.example.edu.	3585	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -256,7 +256,7 @@ cehde.example.edu.	3580	\-ANY	;-$NXDOMAIN
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
 ; authauthority
-cehdf.example.edu.	3580	\-ANY	;-$NXDOMAIN
+cehdf.example.edu.	3585	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
@@ -266,369 +266,203 @@ cehdf.example.edu.	3580	\-ANY	;-$NXDOMAIN
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
 ; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authauthority
-cehef.example.edu.	3580	\-ANY	;-$NXDOMAIN
+cehef.example.edu.	3586	\-ANY	;-$NXDOMAIN
 ; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
 ; example.edu. RRSIG SOA ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
 ; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
 ; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-dehef.example.edu.	3581	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-dehff.example.edu.	3581	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-dfhff.example.edu.	3581	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-dghff.example.edu.	3581	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-dgiff.example.edu.	3581	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-dhiff.example.edu.	3581	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-ehiff.example.edu.	3582	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-ehifg.example.edu.	3582	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-eiifg.example.edu.	3582	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-ejifg.example.edu.	3582	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-ejigg.example.edu.	3582	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-ejigh.example.edu.	3583	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-ejjgh.example.edu.	3583	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-ejjgi.example.edu.	3583	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-ejjgj.example.edu.	3583	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-ejjhj.example.edu.	3583	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-ejkhj.example.edu.	3584	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-ekkhj.example.edu.	3584	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-ekkij.example.edu.	3584	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-ekkjj.example.edu.	3584	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-ekkjk.example.edu.	3584	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
-; authauthority
-ekljk.example.edu.	3584	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-elljk.example.edu.	3585	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; authauthority
-elljl.example.edu.	3585	\-ANY	;-$NXDOMAIN
-; example.edu. SOA ns.icann.org. noc.dns.icann.org. 2024013029 7200 3600 1209600 3600
-; example.edu. RRSIG SOA ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. RRSIG NSEC3 ...
-; 4rtds17d0n430632rl2394pesof848ub.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 7NV1KS9I8CDP7D17RDGO04TERPTAAQDH A NS SOA MX TXT AAAA RRSIG DNSKEY NSEC3PARAM
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. RRSIG NSEC3 ...
-; 7nv1ks9i8cdp7d17rdgo04terptaaqdh.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 HNGG2FCDGOSOOT1UATE29220AJNLGFPH A TXT AAAA RRSIG
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. RRSIG NSEC3 ...
-; hngg2fcdgosoot1uate29220ajnlgfph.example.edu. NSEC3 1 0 5 53BCBC5805D2B761 4RTDS17D0N430632RL2394PESOF848UB TXT RRSIG
 ; authanswer
-emljl.example.edu.	604785	A	102.102.102.102
+dehef.example.edu.	604785	A	102.102.102.102
 ; authanswer
-emljm.example.edu.	259185	A	1.1.1.100
+dehff.example.edu.	259185	A	1.1.1.100
 ; authanswer
-fmljm.example.edu.	259185	A	1.1.1.100
+dfhff.example.edu.	259186	A	1.1.1.100
 ; authanswer
-fmljn.example.edu.	259186	A	1.1.1.100
+dghff.example.edu.	259186	A	1.1.1.100
 ; authanswer
-fmmjn.example.edu.	259186	A	1.1.1.100
+dgiff.example.edu.	259186	A	1.1.1.100
 ; authanswer
-fmnjn.example.edu.	259186	A	1.1.1.100
+dhiff.example.edu.	259186	A	1.1.1.100
 ; authanswer
-fmojn.example.edu.	259186	A	1.1.1.100
+ehiff.example.edu.	259186	A	1.1.1.100
 ; authanswer
-fmpjn.example.edu.	259186	A	1.1.1.100
+ehifg.example.edu.	259186	A	1.1.1.100
 ; authanswer
-fnpjn.example.edu.	259186	A	1.1.1.100
+eiifg.example.edu.	259186	A	1.1.1.100
 ; authanswer
-fopjn.example.edu.	259187	A	1.1.1.100
+ejifg.example.edu.	259187	A	1.1.1.100
 ; authanswer
-gopjn.example.edu.	259187	A	1.1.1.100
+ejigg.example.edu.	259187	A	1.1.1.100
 ; authanswer
-gopjo.example.edu.	259187	A	1.1.1.100
+ejigh.example.edu.	259187	A	1.1.1.100
 ; authanswer
-hopjo.example.edu.	259187	A	1.1.1.100
+ejjgh.example.edu.	259187	A	1.1.1.100
 ; authanswer
-hppjo.example.edu.	259187	A	1.1.1.100
+ejjgi.example.edu.	259187	A	1.1.1.100
 ; authanswer
-hpqjo.example.edu.	259188	A	1.1.1.100
+ejjgj.example.edu.	259187	A	1.1.1.100
 ; authanswer
-hqqjo.example.edu.	259188	A	1.1.1.100
+ejjhj.example.edu.	259188	A	1.1.1.100
 ; authanswer
-hqqjp.example.edu.	259188	A	1.1.1.100
+ejkhj.example.edu.	259188	A	1.1.1.100
 ; authanswer
-hqrjp.example.edu.	259188	A	1.1.1.100
+ekkhj.example.edu.	259188	A	1.1.1.100
 ; authanswer
-hqsjp.example.edu.	259188	A	1.1.1.100
+ekkij.example.edu.	259188	A	1.1.1.100
 ; authanswer
-hrsjp.example.edu.	259188	A	1.1.1.100
+ekkjj.example.edu.	259188	A	1.1.1.100
 ; authanswer
-hssjp.example.edu.	259188	A	1.1.1.100
+ekkjk.example.edu.	259188	A	1.1.1.100
 ; authanswer
-hssjq.example.edu.	259189	A	1.1.1.100
+ekljk.example.edu.	259188	A	1.1.1.100
 ; authanswer
-hsskq.example.edu.	259189	A	1.1.1.100
+elljk.example.edu.	259189	A	1.1.1.100
 ; authanswer
-hstkq.example.edu.	259189	A	1.1.1.100
+elljl.example.edu.	259189	A	1.1.1.100
 ; authanswer
-hstlq.example.edu.	259189	A	1.1.1.100
+emljl.example.edu.	259189	A	1.1.1.100
 ; authanswer
-istlq.example.edu.	259189	A	1.1.1.100
+emljm.example.edu.	259189	A	1.1.1.100
 ; authanswer
-istmq.example.edu.	259189	A	1.1.1.100
+fmljm.example.edu.	259189	A	1.1.1.100
 ; authanswer
-jstmq.example.edu.	259189	A	1.1.1.100
+fmljn.example.edu.	259189	A	1.1.1.100
 ; authanswer
-jttmq.example.edu.	259190	A	1.1.1.100
+fmmjn.example.edu.	259190	A	1.1.1.100
 ; authanswer
-jttnq.example.edu.	259190	A	1.1.1.100
+fmnjn.example.edu.	259190	A	1.1.1.100
 ; authanswer
-jutnq.example.edu.	259190	A	1.1.1.100
+fmojn.example.edu.	259190	A	1.1.1.100
 ; authanswer
-jvtnq.example.edu.	259190	A	1.1.1.100
+fmpjn.example.edu.	259190	A	1.1.1.100
 ; authanswer
-jvtnr.example.edu.	259190	A	1.1.1.100
+fnpjn.example.edu.	259190	A	1.1.1.100
 ; authanswer
-jvtns.example.edu.	259190	A	1.1.1.100
+fopjn.example.edu.	259190	A	1.1.1.100
 ; authanswer
-jwtns.example.edu.	259190	A	1.1.1.100
+gopjn.example.edu.	259190	A	1.1.1.100
 ; authanswer
-jwtos.example.edu.	259191	A	1.1.1.100
+gopjo.example.edu.	259191	A	1.1.1.100
 ; authanswer
-jwtot.example.edu.	259191	A	1.1.1.100
+hopjo.example.edu.	259191	A	1.1.1.100
 ; authanswer
-jwtou.example.edu.	259191	A	1.1.1.100
+hppjo.example.edu.	259191	A	1.1.1.100
 ; authanswer
-jwuou.example.edu.	259191	A	1.1.1.100
+hpqjo.example.edu.	259191	A	1.1.1.100
 ; authanswer
-jwupu.example.edu.	259191	A	1.1.1.100
+hqqjo.example.edu.	259191	A	1.1.1.100
 ; authanswer
-jwvpu.example.edu.	259191	A	1.1.1.100
+hqqjp.example.edu.	259191	A	1.1.1.100
 ; authanswer
-jwvpv.example.edu.	259191	A	1.1.1.100
+hqrjp.example.edu.	259192	A	1.1.1.100
 ; authanswer
-jwwpv.example.edu.	259191	A	1.1.1.100
+hqsjp.example.edu.	259192	A	1.1.1.100
 ; authanswer
-jwxpv.example.edu.	259192	A	1.1.1.100
+hrsjp.example.edu.	259192	A	1.1.1.100
 ; authanswer
-kwxpv.example.edu.	259192	A	1.1.1.100
+hssjp.example.edu.	259192	A	1.1.1.100
 ; authanswer
-kwxpw.example.edu.	259192	A	1.1.1.100
+hssjq.example.edu.	259192	A	1.1.1.100
 ; authanswer
-kwxqw.example.edu.	259192	A	1.1.1.100
+hsskq.example.edu.	259192	A	1.1.1.100
 ; authanswer
-kwxqx.example.edu.	259192	A	1.1.1.100
+hstkq.example.edu.	259193	A	1.1.1.100
 ; authanswer
-lwxqx.example.edu.	259193	A	1.1.1.100
+hstlq.example.edu.	259193	A	1.1.1.100
 ; authanswer
-lwxrx.example.edu.	259193	A	1.1.1.100
+istlq.example.edu.	259193	A	1.1.1.100
 ; authanswer
-lwxsx.example.edu.	259193	A	1.1.1.100
+istmq.example.edu.	259193	A	1.1.1.100
 ; authanswer
-lwxtx.example.edu.	259193	A	1.1.1.100
+jstmq.example.edu.	259193	A	1.1.1.100
 ; authanswer
-lxxtx.example.edu.	259193	A	1.1.1.100
+jttmq.example.edu.	259193	A	1.1.1.100
 ; authanswer
-lxxux.example.edu.	259194	A	1.1.1.100
+jttnq.example.edu.	259194	A	1.1.1.100
 ; authanswer
-lxxvx.example.edu.	259194	A	1.1.1.100
+jutnq.example.edu.	259194	A	1.1.1.100
+; authanswer
+jvtnq.example.edu.	259194	A	1.1.1.100
+; authanswer
+jvtnr.example.edu.	259194	A	1.1.1.100
+; authanswer
+jvtns.example.edu.	259194	A	1.1.1.100
+; authanswer
+jwtns.example.edu.	259195	A	1.1.1.100
+; authanswer
+jwtos.example.edu.	259195	A	1.1.1.100
+; authanswer
+jwtot.example.edu.	259195	A	1.1.1.100
+; authanswer
+jwtou.example.edu.	259195	A	1.1.1.100
+; authanswer
+jwuou.example.edu.	259195	A	1.1.1.100
+; authanswer
+jwupu.example.edu.	259196	A	1.1.1.100
+; authanswer
+jwvpu.example.edu.	259196	A	1.1.1.100
+; authanswer
+jwvpv.example.edu.	259196	A	1.1.1.100
+; authanswer
+jwwpv.example.edu.	259196	A	1.1.1.100
+; authanswer
+jwxpv.example.edu.	259196	A	1.1.1.100
+; authanswer
+kwxpv.example.edu.	259196	A	1.1.1.100
+; authanswer
+kwxpw.example.edu.	259197	A	1.1.1.100
+; authanswer
+kwxqw.example.edu.	259197	A	1.1.1.100
+; authanswer
+kwxqx.example.edu.	259197	A	1.1.1.100
+; authanswer
+lwxqx.example.edu.	259197	A	1.1.1.100
+; authanswer
+lwxrx.example.edu.	259197	A	1.1.1.100
+; authanswer
+lwxsx.example.edu.	259198	A	1.1.1.100
+; authanswer
+lwxtx.example.edu.	259198	A	1.1.1.100
+; authanswer
+lxxtx.example.edu.	259198	A	1.1.1.100
+; authanswer
+lxxux.example.edu.	259198	A	1.1.1.100
+; authanswer
+lxxvx.example.edu.	259198	A	1.1.1.100
 ; glue
-a0.org.afilias-nst.info. 172777	A	199.19.56.1
+a0.org.afilias-nst.info. 172782	A	199.19.56.1
 ; glue
-			172777	AAAA	2001:500:e::1
+			172782	AAAA	2001:500:e::1
 ; glue
-a2.org.afilias-nst.info. 172777	A	199.249.112.1
+a2.org.afilias-nst.info. 172782	A	199.249.112.1
 ; glue
-			172777	AAAA	2001:500:40::1
+			172782	AAAA	2001:500:40::1
 ; glue
-c0.org.afilias-nst.info. 172777	A	199.19.53.1
+c0.org.afilias-nst.info. 172782	A	199.19.53.1
 ; glue
-			172777	AAAA	2001:500:b::1
+			172782	AAAA	2001:500:b::1
 ; glue
-net.			172777	NS	a.gtld-servers.net.
-			172777	NS	b.gtld-servers.net.
-			172777	NS	c.gtld-servers.net.
-			172777	NS	d.gtld-servers.net.
-			172777	NS	e.gtld-servers.net.
-			172777	NS	f.gtld-servers.net.
-			172777	NS	g.gtld-servers.net.
-			172777	NS	h.gtld-servers.net.
-			172777	NS	i.gtld-servers.net.
-			172777	NS	j.gtld-servers.net.
-			172777	NS	k.gtld-servers.net.
-			172777	NS	l.gtld-servers.net.
-			172777	NS	m.gtld-servers.net.
+net.			172781	NS	a.gtld-servers.net.
+			172781	NS	b.gtld-servers.net.
+			172781	NS	c.gtld-servers.net.
+			172781	NS	d.gtld-servers.net.
+			172781	NS	e.gtld-servers.net.
+			172781	NS	f.gtld-servers.net.
+			172781	NS	g.gtld-servers.net.
+			172781	NS	h.gtld-servers.net.
+			172781	NS	i.gtld-servers.net.
+			172781	NS	j.gtld-servers.net.
+			172781	NS	k.gtld-servers.net.
+			172781	NS	l.gtld-servers.net.
+			172781	NS	m.gtld-servers.net.
 ; additional
-			86377	DS	37331 13 2 (
+			86381	DS	37331 13 2 (
 					2F0BEC2D6F79DFBD1D08FD21A3AF92D0E39A
 					4B9EF1E3F4111FFF282490DA453B )
 ; additional
-			86377	RRSIG	DS 8 1 86400 20240411170000 (
+			86381	RRSIG	DS 8 1 86400 20240411170000 (
 					20240329160000 30903 .
 					f59qnyezlfMQBBsmqIY3nNBDVBlgVuEfeL4X
 					AqNy7I/hPBVZBrWppCd4Ka3LWy87NgJJZ4YE
@@ -641,128 +475,128 @@ net.			172777	NS	a.gtld-servers.net.
 					++qIwjR2ftPVJG2JEhoGXXY8x5WVng6jHiBZ
 					C75yJVAuh5QkbYFfkw== )
 ; glue
-a.edu-servers.net.	172777	A	192.5.6.30
+a.edu-servers.net.	172781	A	192.5.6.30
 ; glue
-			172777	AAAA	2001:503:a83e::2:30
+			172781	AAAA	2001:503:a83e::2:30
 ; glue
-b.edu-servers.net.	172777	A	192.33.14.30
+b.edu-servers.net.	172781	A	192.33.14.30
 ; glue
-			172777	AAAA	2001:503:231d::2:30
+			172781	AAAA	2001:503:231d::2:30
 ; glue
-c.edu-servers.net.	172777	A	192.26.92.30
+c.edu-servers.net.	172781	A	192.26.92.30
 ; glue
-			172777	AAAA	2001:503:83eb::30
+			172781	AAAA	2001:503:83eb::30
 ; glue
-d.edu-servers.net.	172777	A	192.31.80.30
+d.edu-servers.net.	172781	A	192.31.80.30
 ; glue
-			172777	AAAA	2001:500:856e::30
+			172781	AAAA	2001:500:856e::30
 ; glue
-e.edu-servers.net.	172777	A	192.12.94.30
+e.edu-servers.net.	172781	A	192.12.94.30
 ; glue
-			172777	AAAA	2001:502:1ca1::30
+			172781	AAAA	2001:502:1ca1::30
 ; glue
-f.edu-servers.net.	172777	A	192.35.51.30
+f.edu-servers.net.	172781	A	192.35.51.30
 ; glue
-			172777	AAAA	2001:503:d414::30
+			172781	AAAA	2001:503:d414::30
 ; glue
-g.edu-servers.net.	172777	A	192.42.93.30
+g.edu-servers.net.	172781	A	192.42.93.30
 ; glue
-			172777	AAAA	2001:503:eea3::30
+			172781	AAAA	2001:503:eea3::30
 ; glue
-h.edu-servers.net.	172777	A	192.54.112.30
+h.edu-servers.net.	172781	A	192.54.112.30
 ; glue
-			172777	AAAA	2001:502:8cc::30
+			172781	AAAA	2001:502:8cc::30
 ; glue
-i.edu-servers.net.	172777	A	192.43.172.30
+i.edu-servers.net.	172781	A	192.43.172.30
 ; glue
-			172777	AAAA	2001:503:39c1::30
+			172781	AAAA	2001:503:39c1::30
 ; glue
-j.edu-servers.net.	172777	A	192.48.79.30
+j.edu-servers.net.	172781	A	192.48.79.30
 ; glue
-			172777	AAAA	2001:502:7094::30
+			172781	AAAA	2001:502:7094::30
 ; glue
-k.edu-servers.net.	172777	A	192.52.178.30
+k.edu-servers.net.	172781	A	192.52.178.30
 ; glue
-			172777	AAAA	2001:503:d2d::30
+			172781	AAAA	2001:503:d2d::30
 ; glue
-l.edu-servers.net.	172777	A	192.41.162.30
+l.edu-servers.net.	172781	A	192.41.162.30
 ; glue
-			172777	AAAA	2001:500:d937::30
+			172781	AAAA	2001:500:d937::30
 ; glue
-m.edu-servers.net.	172777	A	192.55.83.30
+m.edu-servers.net.	172781	A	192.55.83.30
 ; glue
-			172777	AAAA	2001:501:b1f9::30
+			172781	AAAA	2001:501:b1f9::30
 ; glue
-a.gtld-servers.net.	172777	A	192.5.6.30
+a.gtld-servers.net.	172781	A	192.5.6.30
 ; glue
-			172777	AAAA	2001:503:a83e::2:30
+			172781	AAAA	2001:503:a83e::2:30
 ; glue
-b.gtld-servers.net.	172777	A	192.33.14.30
+b.gtld-servers.net.	172781	A	192.33.14.30
 ; glue
-			172777	AAAA	2001:503:231d::2:30
+			172781	AAAA	2001:503:231d::2:30
 ; glue
-c.gtld-servers.net.	172777	A	192.26.92.30
+c.gtld-servers.net.	172781	A	192.26.92.30
 ; glue
-			172777	AAAA	2001:503:83eb::30
+			172781	AAAA	2001:503:83eb::30
 ; glue
-d.gtld-servers.net.	172777	A	192.31.80.30
+d.gtld-servers.net.	172781	A	192.31.80.30
 ; glue
-			172777	AAAA	2001:500:856e::30
+			172781	AAAA	2001:500:856e::30
 ; glue
-e.gtld-servers.net.	172777	A	192.12.94.30
+e.gtld-servers.net.	172781	A	192.12.94.30
 ; glue
-			172777	AAAA	2001:502:1ca1::30
+			172781	AAAA	2001:502:1ca1::30
 ; glue
-f.gtld-servers.net.	172777	A	192.35.51.30
+f.gtld-servers.net.	172781	A	192.35.51.30
 ; glue
-			172777	AAAA	2001:503:d414::30
+			172781	AAAA	2001:503:d414::30
 ; glue
-g.gtld-servers.net.	172777	A	192.42.93.30
+g.gtld-servers.net.	172781	A	192.42.93.30
 ; glue
-			172777	AAAA	2001:503:eea3::30
+			172781	AAAA	2001:503:eea3::30
 ; glue
-h.gtld-servers.net.	172777	A	192.54.112.30
+h.gtld-servers.net.	172781	A	192.54.112.30
 ; glue
-			172777	AAAA	2001:502:8cc::30
+			172781	AAAA	2001:502:8cc::30
 ; glue
-i.gtld-servers.net.	172777	A	192.43.172.30
+i.gtld-servers.net.	172781	A	192.43.172.30
 ; glue
-			172777	AAAA	2001:503:39c1::30
+			172781	AAAA	2001:503:39c1::30
 ; glue
-j.gtld-servers.net.	172777	A	192.48.79.30
+j.gtld-servers.net.	172781	A	192.48.79.30
 ; glue
-			172777	AAAA	2001:502:7094::30
+			172781	AAAA	2001:502:7094::30
 ; glue
-k.gtld-servers.net.	172777	A	192.52.178.30
+k.gtld-servers.net.	172781	A	192.52.178.30
 ; glue
-			172777	AAAA	2001:503:d2d::30
+			172781	AAAA	2001:503:d2d::30
 ; glue
-l.gtld-servers.net.	172777	A	192.41.162.30
+l.gtld-servers.net.	172781	A	192.41.162.30
 ; glue
-			172777	AAAA	2001:500:d937::30
+			172781	AAAA	2001:500:d937::30
 ; glue
-m.gtld-servers.net.	172777	A	192.55.83.30
+m.gtld-servers.net.	172781	A	192.55.83.30
 ; glue
-			172777	AAAA	2001:501:b1f9::30
+			172781	AAAA	2001:501:b1f9::30
 ; glue
-iana-servers.net.	172777	NS	a.iana-servers.net.
-			172777	NS	b.iana-servers.net.
-			172777	NS	c.iana-servers.net.
-			172777	NS	ns.icann.org.
+iana-servers.net.	172781	NS	a.iana-servers.net.
+			172781	NS	b.iana-servers.net.
+			172781	NS	c.iana-servers.net.
+			172781	NS	ns.icann.org.
 ; additional
-			86377	DS	7474 8 2 (
+			86381	DS	7474 8 2 (
 					893CC96419BA2F255A8C9BE913753AD2CA72
 					65C67B9D1BAF3CD18AEC4CBFEA9C )
 ; additional
-			86377	RRSIG	DS 13 2 86400 20240405064626 (
+			86381	RRSIG	DS 13 2 86400 20240405064626 (
 					20240329053626 34730 net.
 					E60UVF+ymE/k+zdVs4zmNFiEkzv4vcjVnc+8
 					2H6rbPB8ttn1o0GpeBaL35pQbRXxZwb0y009
 					cRymhrSkkCRjgQ== )
 ; authanswer
-a.iana-servers.net.	1777	A	199.43.135.53
+a.iana-servers.net.	1782	A	199.43.135.53
 ; authanswer
-			1777	RRSIG	A 8 3 1800 20240412030247 (
+			1782	RRSIG	A 8 3 1800 20240412030247 (
 					20240322121938 51759 iana-servers.net.
 					jft9CT9j0LjM+8y8vCetIWVii8wmG3KHLFg7
 					iGIRbpH1oCM1YzIxQoYKRLDftaiE0v1wFeHN
@@ -770,9 +604,9 @@ a.iana-servers.net.	1777	A	199.43.135.53
 					DbLZV955Hlx2Z12raPy3ecNTezko3WZJTPtX
 					ug344plG/P7hRFrorupaTR3HY/Q= )
 ; authanswer
-			1777	AAAA	2001:500:8f::53
+			1782	AAAA	2001:500:8f::53
 ; authanswer
-			1777	RRSIG	AAAA 8 3 1800 20240415052121 (
+			1782	RRSIG	AAAA 8 3 1800 20240415052121 (
 					20240325022440 51759 iana-servers.net.
 					P4CeVfrTXqoCPsHcz8LRhWbRzQqjtnwkDGLa
 					SiyLzFB8r6Q/Bywd70YLlYtdinWVn6GmoDIs
@@ -780,9 +614,9 @@ a.iana-servers.net.	1777	A	199.43.135.53
 					gKG+2N8jTgH/JJXistI0gWqwe86WEZRbNMEP
 					FpAAsRTUXph4ChiWB7JkLnyM34A= )
 ; authanswer
-b.iana-servers.net.	1777	A	199.43.133.53
+b.iana-servers.net.	1782	A	199.43.133.53
 ; authanswer
-			1777	RRSIG	A 8 3 1800 20240413114114 (
+			1782	RRSIG	A 8 3 1800 20240413114114 (
 					20240323222339 51759 iana-servers.net.
 					fwLn14B2gUuVEQwiNzobcG7omJUT2U7rZnX9
 					zYrKqTfi+LbbEJ+ZY9V+WkJvmf22eaxqslAj
@@ -790,9 +624,9 @@ b.iana-servers.net.	1777	A	199.43.133.53
 					czu/ncn3UphktN9AqlpKgXNZEXYYTuX7IJJD
 					qi+o6/qxXmNcl2cZgsIdOdvcCTk= )
 ; authanswer
-			1777	AAAA	2001:500:8d::53
+			1782	AAAA	2001:500:8d::53
 ; authanswer
-			1777	RRSIG	AAAA 8 3 1800 20240414222336 (
+			1782	RRSIG	AAAA 8 3 1800 20240414222336 (
 					20240325002439 51759 iana-servers.net.
 					ZMGb3tFdve5NzyKdOm1M0/4f7SdinU4UzocE
 					5rBiJVDLZSfcR51B3U1jTrKxRncqaW82gzb5
@@ -800,16 +634,16 @@ b.iana-servers.net.	1777	A	199.43.133.53
 					YFYdCEZ2GLpjm9K9A4diiG1IlKiZIe4FOj4+
 					sQoZJrUWqUOYwD2egbPqG6+W/8k= )
 ; glue
-c.iana-servers.net.	172777	A	199.43.134.53
+c.iana-servers.net.	172781	A	199.43.134.53
 ; glue
-			172777	AAAA	2001:500:8e::53
+			172781	AAAA	2001:500:8e::53
 ; authauthority
-icann-servers.net.	28777	NS	a.icann-servers.net.
-			28777	NS	b.icann-servers.net.
-			28777	NS	c.icann-servers.net.
-			28777	NS	ns.icann.org.
+icann-servers.net.	28782	NS	a.icann-servers.net.
+			28782	NS	b.icann-servers.net.
+			28782	NS	c.icann-servers.net.
+			28782	NS	ns.icann.org.
 ; authauthority
-			28777	RRSIG	NS 8 2 28800 20240409051538 (
+			28782	RRSIG	NS 8 2 28800 20240409051538 (
 					20240318221443 2259 icann-servers.net.
 					ev+Nw8gkSFJfH6aMkFGbKgLwKXSsEZYT8H2D
 					hkhIhGFaNo818GRNl6OINZcHxhT52/+vWH7v
@@ -817,19 +651,19 @@ icann-servers.net.	28777	NS	a.icann-servers.net.
 					bfF3ThXBe63EcTypF3HxpTtzep/QkKZpmSpB
 					EVnLuPZCQrHFh3cFNPwk2GOAFqU= )
 ; additional
-			86377	DS	55357 8 2 (
+			86382	DS	55357 8 2 (
 					B8409C915D4A76AE8A443C2BD5FEA38E8572
 					93E55ACE2540D83472BFDF00E512 )
 ; additional
-			86377	RRSIG	DS 13 2 86400 20240403064809 (
+			86382	RRSIG	DS 13 2 86400 20240403064809 (
 					20240327053809 34730 net.
 					izhqVeoRpLApR1lP9DWF39dSTiiEdAyffugm
 					Vok0t2excMrbXwDDUdzqmvUTdHb6+OMLM+7r
 					UfC6tH7EDzm6qQ== )
 ; authanswer
-a.icann-servers.net.	28777	A	199.43.135.53
+a.icann-servers.net.	28782	A	199.43.135.53
 ; authanswer
-			28777	RRSIG	A 8 3 28800 20240411165652 (
+			28782	RRSIG	A 8 3 28800 20240411165652 (
 					20240321101838 2259 icann-servers.net.
 					iOn0xekUEBVM741oAEQhWeVzMZqoB27TDasz
 					Ja0+eRjlu99bOlbx3N+Ybn/FTQy62UDBJyt+
@@ -837,9 +671,9 @@ a.icann-servers.net.	28777	A	199.43.135.53
 					SZ+MCqa19RGgpJZehuAw72aD7YWUkMpcTRnV
 					W1fSwTlMFTSFafGZPxgyeAyrSmM= )
 ; authanswer
-			28777	AAAA	2001:500:8f::53
+			28782	AAAA	2001:500:8f::53
 ; authanswer
-			28777	RRSIG	AAAA 8 3 28800 20240410110447 (
+			28782	RRSIG	AAAA 8 3 28800 20240410110447 (
 					20240320061543 2259 icann-servers.net.
 					MphX4/gD6Pd1opGTfILW89+a8n1QcyXqEr8a
 					Mpf3VOaRFSXFeJsL8LBT/E+F57OaCohvG16a
@@ -847,9 +681,9 @@ a.icann-servers.net.	28777	A	199.43.135.53
 					32M6kDhIXhMTwlY0cE9x6eNyRDp80R8+BRgH
 					626FJZ1xgjKu1hZm2u0auHadqqk= )
 ; authanswer
-b.icann-servers.net.	28777	A	199.43.133.53
+b.icann-servers.net.	28782	A	199.43.133.53
 ; authanswer
-			28777	RRSIG	A 8 3 28800 20240408010643 (
+			28782	RRSIG	A 8 3 28800 20240408010643 (
 					20240317201143 2259 icann-servers.net.
 					Wj0JRYQSBhUvQFwwNLOSJkTLxRPoKoZFOHtx
 					lbwC5mqsRHmdFV7rUxNAE4J62DnjT4t6sOI6
@@ -857,9 +691,9 @@ b.icann-servers.net.	28777	A	199.43.133.53
 					bT01hq//nQHBbYfw9nnxB3vzDyNeTjr8mAe4
 					Zrt0XDWTS4mDLtMyxjZ534WPDUU= )
 ; authanswer
-			28777	AAAA	2001:500:8d::53
+			28782	AAAA	2001:500:8d::53
 ; authanswer
-			28777	RRSIG	AAAA 8 3 28800 20240412070950 (
+			28782	RRSIG	AAAA 8 3 28800 20240412070950 (
 					20240321201838 2259 icann-servers.net.
 					Q+swyzjF1zdePwjutPTdERaHl3IdSV9uy5u2
 					ssOjKwFhbXi3WN5FKQDlOyhZgBs9Y2IThUk8
@@ -867,9 +701,9 @@ b.icann-servers.net.	28777	A	199.43.133.53
 					e2NZiMnQ6swp0XTi9vadw0V321bVbm4bsJ/b
 					kG2kK+VQcvmvg+ovgohziFi1Whg= )
 ; authanswer
-c.icann-servers.net.	28777	A	199.43.134.53
+c.icann-servers.net.	28782	A	199.43.134.53
 ; authanswer
-			28777	RRSIG	A 8 3 28800 20240408090222 (
+			28782	RRSIG	A 8 3 28800 20240408090222 (
 					20240318061243 2259 icann-servers.net.
 					hrQq1Ily1E2QlJe/Xiojg/g58hLl6G3iexup
 					w85lV5JIjkFXIFR+8uO4nrr+rEAmjU7vAcP1
@@ -877,9 +711,9 @@ c.icann-servers.net.	28777	A	199.43.134.53
 					QBumQKqZ2142GgSLC9pasUrV67ifXryxR+ts
 					6spnzPzTJqi+K5KiBOVQu5sBimM= )
 ; authanswer
-			28777	AAAA	2001:500:8e::53
+			28782	AAAA	2001:500:8e::53
 ; authanswer
-			28777	RRSIG	AAAA 8 3 28800 20240412203820 (
+			28782	RRSIG	AAAA 8 3 28800 20240412203820 (
 					20240322164240 2259 icann-servers.net.
 					GASTX0gAbfPALLjb1+JaLjkb7x6JUrZWvotp
 					eJD9Ufwl7BbqNrHoAd6pqYaIyfROekDe6o4k
@@ -887,70 +721,70 @@ c.icann-servers.net.	28777	A	199.43.134.53
 					EV3NkpTL+jWRQNoAN2NRRgAVt18O5Rhh4arM
 					7eBmQQzMrjG0fAgb/y85P2GCL+A= )
 ; additional
-a.root-servers.net.	518377	A	198.41.0.4
+a.root-servers.net.	518381	A	198.41.0.4
 ; additional
-			518377	AAAA	2001:503:ba3e::2:30
+			518381	AAAA	2001:503:ba3e::2:30
 ; additional
-b.root-servers.net.	518377	A	170.247.170.2
+b.root-servers.net.	518381	A	170.247.170.2
 ; additional
-			518377	AAAA	2801:1b8:10::b
+			518381	AAAA	2801:1b8:10::b
 ; additional
-c.root-servers.net.	518377	A	192.33.4.12
+c.root-servers.net.	518381	A	192.33.4.12
 ; additional
-			518377	AAAA	2001:500:2::c
+			518381	AAAA	2001:500:2::c
 ; additional
-d.root-servers.net.	518377	A	199.7.91.13
+d.root-servers.net.	518381	A	199.7.91.13
 ; additional
-			518377	AAAA	2001:500:2d::d
+			518381	AAAA	2001:500:2d::d
 ; additional
-e.root-servers.net.	518377	A	192.203.230.10
+e.root-servers.net.	518381	A	192.203.230.10
 ; additional
-			518377	AAAA	2001:500:a8::e
+			518381	AAAA	2001:500:a8::e
 ; additional
-f.root-servers.net.	518377	A	192.5.5.241
+f.root-servers.net.	518381	A	192.5.5.241
 ; additional
-			518377	AAAA	2001:500:2f::f
+			518381	AAAA	2001:500:2f::f
 ; additional
-g.root-servers.net.	518377	A	192.112.36.4
+g.root-servers.net.	518381	A	192.112.36.4
 ; additional
-			518377	AAAA	2001:500:12::d0d
+			518381	AAAA	2001:500:12::d0d
 ; additional
-h.root-servers.net.	518377	A	198.97.190.53
+h.root-servers.net.	518381	A	198.97.190.53
 ; additional
-			518377	AAAA	2001:500:1::53
+			518381	AAAA	2001:500:1::53
 ; additional
-i.root-servers.net.	518377	A	192.36.148.17
+i.root-servers.net.	518381	A	192.36.148.17
 ; additional
-			518377	AAAA	2001:7fe::53
+			518381	AAAA	2001:7fe::53
 ; additional
-j.root-servers.net.	518377	A	192.58.128.30
+j.root-servers.net.	518381	A	192.58.128.30
 ; additional
-			518377	AAAA	2001:503:c27::2:30
+			518381	AAAA	2001:503:c27::2:30
 ; additional
-k.root-servers.net.	518377	A	193.0.14.129
+k.root-servers.net.	518381	A	193.0.14.129
 ; additional
-			518377	AAAA	2001:7fd::1
+			518381	AAAA	2001:7fd::1
 ; additional
-l.root-servers.net.	518377	A	199.7.83.42
+l.root-servers.net.	518381	A	199.7.83.42
 ; additional
-			518377	AAAA	2001:500:9f::42
+			518381	AAAA	2001:500:9f::42
 ; additional
-m.root-servers.net.	518377	A	202.12.27.33
+m.root-servers.net.	518381	A	202.12.27.33
 ; additional
-			518377	AAAA	2001:dc3::35
+			518381	AAAA	2001:dc3::35
 ; glue
-org.			172777	NS	a0.org.afilias-nst.info.
-			172777	NS	a2.org.afilias-nst.info.
-			172777	NS	b0.org.afilias-nst.org.
-			172777	NS	b2.org.afilias-nst.org.
-			172777	NS	c0.org.afilias-nst.info.
-			172777	NS	d0.org.afilias-nst.org.
+org.			172782	NS	a0.org.afilias-nst.info.
+			172782	NS	a2.org.afilias-nst.info.
+			172782	NS	b0.org.afilias-nst.org.
+			172782	NS	b2.org.afilias-nst.org.
+			172782	NS	c0.org.afilias-nst.info.
+			172782	NS	d0.org.afilias-nst.org.
 ; additional
-			86377	DS	26974 8 2 (
+			86382	DS	26974 8 2 (
 					4FEDE294C53F438A158C41D39489CD78A86B
 					EB0D8A0AEAFF14745C0D16E1DE32 )
 ; additional
-			86377	RRSIG	DS 8 1 86400 20240411170000 (
+			86382	RRSIG	DS 8 1 86400 20240411170000 (
 					20240329160000 30903 .
 					tNh3/1Wlq0F9Xex/AD/4xJwOdGYicl2/xOE0
 					tEBAH7Tn5OVRYjnRSfCl2r3WwhYaDAT6gUW5
@@ -963,34 +797,34 @@ org.			172777	NS	a0.org.afilias-nst.info.
 					GCo+Xc/6hyKJTJ/dOkvwbXcHysW7hd2H2wZa
 					iGpZ2vaiioLZDWMq2Q== )
 ; glue
-b0.org.afilias-nst.org.	172777	A	199.19.54.1
+b0.org.afilias-nst.org.	172782	A	199.19.54.1
 ; glue
-			172777	AAAA	2001:500:c::1
+			172782	AAAA	2001:500:c::1
 ; glue
-b2.org.afilias-nst.org.	172777	A	199.249.120.1
+b2.org.afilias-nst.org.	172782	A	199.249.120.1
 ; glue
-			172777	AAAA	2001:500:48::1
+			172782	AAAA	2001:500:48::1
 ; glue
-d0.org.afilias-nst.org.	172777	A	199.19.57.1
+d0.org.afilias-nst.org.	172782	A	199.19.57.1
 ; glue
-			172777	AAAA	2001:500:f::1
+			172782	AAAA	2001:500:f::1
 ; authauthority
-icann.org.		3577	NS	a.icann-servers.net.
-			3577	NS	b.icann-servers.net.
-			3577	NS	c.icann-servers.net.
-			3577	NS	ns.icann.org.
+icann.org.		3582	NS	a.icann-servers.net.
+			3582	NS	b.icann-servers.net.
+			3582	NS	c.icann-servers.net.
+			3582	NS	ns.icann.org.
 ; authauthority
-			86377	RRSIG	NS 13 2 86400 20240409171147 (
+			86382	RRSIG	NS 13 2 86400 20240409171147 (
 					20240319194147 23852 icann.org.
 					aXmq9fwW3ucc+v253EXWrBFK9sycunQDqW6J
 					fC3LTegrx+BFMcdNJmik+SGPiEddVB45xrgy
 					h2XQzBSL/SH2Bg== )
 ; additional
-			3577	DS	32859 13 2 (
+			3582	DS	32859 13 2 (
 					271445B07985CCFB8EB42DAA090EA928D723
 					0E2141054B4FC88504F46C97D33D )
 ; additional
-			3577	RRSIG	DS 8 2 3600 20240415152912 (
+			3582	RRSIG	DS 8 2 3600 20240415152912 (
 					20240325142912 3093 org.
 					K+ia+1TY7rC6Nq7JEZ9DllwJERv9NigIfn3l
 					XVrc0QUA7SbCM8qc+RzRcAuvg3v98wd8615g
@@ -998,17 +832,17 @@ icann.org.		3577	NS	a.icann-servers.net.
 					KsYpQI7GYulSSVw3EZbGoZqvZgrid85Kwqx1
 					aJl6klhnH6Y/xjDj8caz2b8yLXk= )
 ; authanswer
-ns.icann.org.		3577	A	199.4.138.53
+ns.icann.org.		3582	A	199.4.138.53
 ; authanswer
-			3577	RRSIG	A 13 3 3600 20240410042734 (
+			3582	RRSIG	A 13 3 3600 20240410042734 (
 					20240320024813 23852 icann.org.
 					v27gjioHl3queLipTzKBDopmw+3s1qtN94X6
 					rcdpzIG9wJPqz1BzL2haQwuU8JykXwciWE/D
 					EjAHvWgpa5NEfw== )
 ; authanswer
-			3577	AAAA	2001:500:89::53
+			3582	AAAA	2001:500:89::53
 ; authanswer
-			3577	RRSIG	AAAA 13 3 3600 20240411102051 (
+			3582	RRSIG	AAAA 13 3 3600 20240411102051 (
 					20240321001937 23852 icann.org.
 					p7kJJRgonVo39jA1gZHnncBXJ/7JgnwVWtEi
 					sl+Vh91dFfD0b1Gl9RUejuc6Q0b76zrdVchz
@@ -1016,95 +850,90 @@ ns.icann.org.		3577	A	199.4.138.53
 ;
 ; Address database dump
 ;
-; a.icann-servers.net [v4 TTL 28777] [v6 TTL 28777] [v4 success] [v6 success]
-;	199.43.135.53 [srtt 21806] [flags 00002000] [ttl 1785]
-;	2001:500:8f::53 [srtt 67163] [flags 00002000] [ttl 1785]
-; a.iana-servers.net [v6 TTL 1777] [v4 unexpected] [v6 success]
-;	2001:500:8f::53 [srtt 67163] [flags 00002000] [ttl 1785]
-; c.icann-servers.net [v4 TTL 28777] [v6 TTL 28777] [v4 success] [v6 success]
-;	199.43.134.53 [srtt 88751] [flags 00002000] [ttl 1777]
-;	2001:500:8e::53 [srtt 170150] [flags 00002000] [ttl 1777]
-; b.icann-servers.net [v4 TTL 28777] [v6 TTL 28777] [v4 success] [v6 success]
-;	199.43.133.53 [srtt 27041] [flags 00002000] [ttl 1785]
-;	2001:500:8d::53 [srtt 65824] [flags 00002000] [ttl 1785]
+; a.icann-servers.net [v4 TTL 28782] [v6 TTL 28782] [v4 success] [v6 success]
+;	199.43.135.53 [srtt 168272] [flags 00002000] [ttl 1786]
+;	2001:500:8f::53 [srtt 102674] [flags 00002000] [ttl 1786]
+; c.icann-servers.net [v4 TTL 28782] [v6 TTL 28782] [v4 success] [v6 success]
+;	199.43.134.53 [srtt 106084] [flags 00002000] [ttl 1782]
+;	2001:500:8e::53 [srtt 184481] [flags 00002000] [ttl 1782]
+; b.icann-servers.net [v4 TTL 28782] [v6 TTL 28782] [v4 success] [v6 success]
+;	199.43.133.53 [srtt 24880] [flags 00002000] [ttl 1786]
+;	2001:500:8d::53 [srtt 102674] [flags 00002000] [ttl 1786]
 ;
 ; Unassociated entries
 ;
-;	2001:7fd::1 [srtt 13] [flags 00000000] [ttl 1777]
-;	199.19.54.1 [srtt 26] [flags 00000000] [ttl 1777]
-;	2001:500:1::803f:235 [srtt 12] [flags 00000000] [ttl 1777]
-;	2001:503:eea3::30 [srtt 19] [flags 00000000] [ttl 1777]
-;	192.5.5.241 [srtt 8] [flags 00000000] [ttl 1777]
-;	192.228.79.201 [srtt 16] [flags 00000000] [ttl 1777]
-;	2001:dc3::35 [srtt 7] [flags 00000000] [ttl 1777]
-;	2001:500:e::1 [srtt 5] [flags 00000000] [ttl 1777]
-;	192.43.172.30 [srtt 0] [flags 00000000] [ttl 1777]
-;	2001:500:856e::30 [srtt 163412] [flags 00002000] [ttl 1777]
-;	192.168.15.7 [srtt 654] [flags 00002000] [ttl 1794]
-;	2001:501:b1f9::30 [srtt 19] [flags 00000000] [ttl 1777]
-;	2001:502:7094::30 [srtt 184473] [flags 00002000] [ttl 1777]
-;	199.19.53.1 [srtt 14] [flags 00000000] [ttl 1777]
-;	192.55.83.30 [srtt 7] [flags 00000000] [ttl 1777]
-;	192.33.4.12 [srtt 6575] [flags 00002000] [ttl 1777]
-;	192.33.14.30 [srtt 20036] [flags 00002000] [ttl 1777]
-;	128.63.2.53 [srtt 9] [flags 00000000] [ttl 1777]
-;	199.249.112.1 [srtt 18] [flags 00000000] [ttl 1777]
-;	2001:502:1ca1::30 [srtt 9] [flags 00000000] [ttl 1777]
-;	128.8.10.90 [srtt 11] [flags 00000000] [ttl 1777]
-;	2001:500:b::1 [srtt 19] [flags 00000000] [ttl 1777]
-;	2001:500:f::1 [srtt 12] [flags 00000000] [ttl 1777]
-;	192.54.112.30 [srtt 14282] [flags 00002000] [ttl 1777]
-;	2001:503:231d::2:30 [srtt 4] [flags 00000000] [ttl 1777]
-;	2001:500:2f::f [srtt 8] [flags 00000000] [ttl 1777]
-;	2001:500:d937::30 [srtt 0] [flags 00000000] [ttl 1777]
-;	199.7.83.42 [srtt 13610] [flags 00002000] [ttl 1777]
-;	192.203.230.10 [srtt 2873] [flags 00002000] [ttl 1777]
-;	192.36.148.17 [srtt 20] [flags 00000000] [ttl 1777]
-;	2001:503:39c1::30 [srtt 5] [flags 00000000] [ttl 1777]
-;	199.249.120.1 [srtt 17] [flags 00000000] [ttl 1777]
-;	202.12.27.33 [srtt 7] [flags 00000000] [ttl 1777]
-;	192.58.128.30 [srtt 12] [flags 00000000] [ttl 1777]
-;	2001:503:d2d::30 [srtt 13] [flags 00000000] [ttl 1777]
-;	2001:503:ba3e::2:30 [srtt 200000] [flags 00002000] [ttl 1777]
-;	193.0.14.129 [srtt 9] [flags 00000000] [ttl 1777]
-;	192.5.6.30 [srtt 21] [flags 00000000] [ttl 1777]
-;	192.112.36.4 [srtt 14] [flags 00000000] [ttl 1777]
-;	2001:500:89::53 [srtt 2] [flags 00000000] [ttl 1777]
-;	198.41.0.4 [srtt 11] [flags 00000000] [ttl 1777]
-;	2001:500:c::1 [srtt 14] [flags 00000000] [ttl 1777]
-;	192.35.51.30 [srtt 0] [flags 00000000] [ttl 1777]
-;	2001:7fe::53 [srtt 200000] [flags 00002000] [ttl 1777]
-;	192.31.80.30 [srtt 16] [flags 00000000] [ttl 1777]
-;	192.48.79.30 [srtt 0] [flags 00000000] [ttl 1777]
-;	199.19.57.1 [srtt 9] [flags 00000000] [ttl 1777]
-;	2001:503:c27::2:30 [srtt 18] [flags 00000000] [ttl 1777]
-;	192.52.178.30 [srtt 1866] [flags 00002000] [ttl 1777]
-;	2001:500:40::1 [srtt 14] [flags 00000000] [ttl 1777]
-;	192.41.162.30 [srtt 2] [flags 00000000] [ttl 1777]
-;	::1 [srtt 712] [flags 00002000] [ttl 1794]
-;		lxxvx.example.edu A [lame TTL 594]
-;		lxxtx.example.edu A [lame TTL 593]
-;		lwxqx.example.edu A [lame TTL 593]
-;		kwxqx.example.edu A [lame TTL 592]
-;		kwxqw.example.edu A [lame TTL 592]
-;		hqqjp.example.edu A [lame TTL 588]
-;		hqqjo.example.edu A [lame TTL 588]
-;		hpqjo.example.edu A [lame TTL 588]
-;		hppjo.example.edu A [lame TTL 587]
-;		fmpjn.example.edu A [lame TTL 586]
-;		fmljm.example.edu A [lame TTL 585]
-;		emljm.example.edu A [lame TTL 585]
-;	2001:500:48::1 [srtt 23] [flags 00000000] [ttl 1777]
-;	192.12.94.30 [srtt 6] [flags 00000000] [ttl 1777]
-;	2001:502:8cc::30 [srtt 6] [flags 00000000] [ttl 1777]
-;	199.19.56.1 [srtt 83605] [flags 00002000] [ttl 1777]
-;	192.26.92.30 [srtt 0] [flags 00000000] [ttl 1777]
-;	2001:503:d414::30 [srtt 16] [flags 00000000] [ttl 1777]
-;	2001:503:a83e::2:30 [srtt 163412] [flags 00002000] [ttl 1777]
-;	2001:500:3::42 [srtt 200000] [flags 00002000] [ttl 1777]
-;	192.42.93.30 [srtt 8] [flags 00000000] [ttl 1777]
-;	199.4.138.53 [srtt 28322] [flags 00002000] [ttl 1777]
-;	2001:503:83eb::30 [srtt 4] [flags 00000000] [ttl 1777]
+;	2001:7fd::1 [srtt 14] [flags 00000000] [ttl 1782]
+;	199.19.54.1 [srtt 30804] [flags 00002000] [ttl 1782]
+;	2001:500:1::803f:235 [srtt 12] [flags 00000000] [ttl 1782]
+;	2001:503:eea3::30 [srtt 2] [flags 00000000] [ttl 1782]
+;	192.5.5.241 [srtt 3] [flags 00000000] [ttl 1782]
+;	192.228.79.201 [srtt 23519] [flags 00002000] [ttl 1782]
+;	2001:dc3::35 [srtt 184473] [flags 00002000] [ttl 1782]
+;	2001:500:e::1 [srtt 3] [flags 00000000] [ttl 1782]
+;	192.43.172.30 [srtt 17] [flags 00000000] [ttl 1782]
+;	2001:500:856e::30 [srtt 0] [flags 00000000] [ttl 1782]
+;	192.168.15.7 [srtt 703] [flags 00002000] [ttl 1798]
+;	2001:501:b1f9::30 [srtt 16] [flags 00000000] [ttl 1782]
+;	2001:502:7094::30 [srtt 2] [flags 00000000] [ttl 1782]
+;	199.19.53.1 [srtt 21] [flags 00000000] [ttl 1782]
+;	192.55.83.30 [srtt 11] [flags 00000000] [ttl 1782]
+;	192.33.4.12 [srtt 15] [flags 00000000] [ttl 1782]
+;	192.33.14.30 [srtt 20957] [flags 00002000] [ttl 1782]
+;	128.63.2.53 [srtt 200000] [flags 00002000] [ttl 1782]
+;	199.249.112.1 [srtt 19] [flags 00000000] [ttl 1782]
+;	2001:502:1ca1::30 [srtt 15] [flags 00000000] [ttl 1782]
+;	128.8.10.90 [srtt 7] [flags 00000000] [ttl 1782]
+;	2001:500:b::1 [srtt 23] [flags 00000000] [ttl 1782]
+;	2001:500:f::1 [srtt 13] [flags 00000000] [ttl 1782]
+;	192.54.112.30 [srtt 13493] [flags 00002000] [ttl 1782]
+;	2001:503:231d::2:30 [srtt 20] [flags 00000000] [ttl 1782]
+;	2001:500:2f::f [srtt 17] [flags 00000000] [ttl 1782]
+;	2001:500:d937::30 [srtt 5] [flags 00000000] [ttl 1782]
+;	199.7.83.42 [srtt 21] [flags 00000000] [ttl 1782]
+;	192.203.230.10 [srtt 22] [flags 00000000] [ttl 1782]
+;	192.36.148.17 [srtt 6] [flags 00000000] [ttl 1782]
+;	2001:503:39c1::30 [srtt 163412] [flags 00002000] [ttl 1782]
+;	199.249.120.1 [srtt 14] [flags 00000000] [ttl 1782]
+;	202.12.27.33 [srtt 47077] [flags 00002000] [ttl 1782]
+;	192.58.128.30 [srtt 3] [flags 00000000] [ttl 1782]
+;	2001:503:d2d::30 [srtt 200000] [flags 00002000] [ttl 1782]
+;	2001:503:ba3e::2:30 [srtt 192080] [flags 00002000] [ttl 1782]
+;	193.0.14.129 [srtt 19] [flags 00000000] [ttl 1782]
+;	192.5.6.30 [srtt 6592] [flags 00002000] [ttl 1782]
+;	192.112.36.4 [srtt 19431] [flags 00002000] [ttl 1782]
+;	2001:500:89::53 [srtt 173640] [flags 00002000] [ttl 1782]
+;	198.41.0.4 [srtt 11] [flags 00000000] [ttl 1782]
+;	2001:500:c::1 [srtt 29] [flags 00000000] [ttl 1782]
+;	192.35.51.30 [srtt 19] [flags 00000000] [ttl 1782]
+;	2001:7fe::53 [srtt 10] [flags 00000000] [ttl 1782]
+;	192.31.80.30 [srtt 0] [flags 00000000] [ttl 1782]
+;	192.48.79.30 [srtt 20] [flags 00000000] [ttl 1782]
+;	199.19.57.1 [srtt 23] [flags 00000000] [ttl 1782]
+;	2001:503:c27::2:30 [srtt 173623] [flags 00002000] [ttl 1782]
+;	192.52.178.30 [srtt 5] [flags 00000000] [ttl 1782]
+;	2001:500:40::1 [srtt 29] [flags 00000000] [ttl 1782]
+;	192.41.162.30 [srtt 0] [flags 00000000] [ttl 1782]
+;	::1 [srtt 770] [flags 00002000] [ttl 1798]
+;		lwxsx.example.edu A [lame TTL 598]
+;		jwvpv.example.edu A [lame TTL 596]
+;		jstmq.example.edu A [lame TTL 593]
+;		eiifg.example.edu A [lame TTL 586]
+;		ehiff.example.edu A [lame TTL 586]
+;		dhiff.example.edu A [lame TTL 586]
+;		dgiff.example.edu A [lame TTL 586]
+;		dghff.example.edu A [lame TTL 586]
+;		dfhff.example.edu A [lame TTL 585]
+;	2001:500:48::1 [srtt 29] [flags 00000000] [ttl 1782]
+;	192.12.94.30 [srtt 2] [flags 00000000] [ttl 1782]
+;	2001:502:8cc::30 [srtt 0] [flags 00000000] [ttl 1782]
+;	199.19.56.1 [srtt 20] [flags 00000000] [ttl 1782]
+;	192.26.92.30 [srtt 2] [flags 00000000] [ttl 1782]
+;	2001:503:d414::30 [srtt 192080] [flags 00002000] [ttl 1782]
+;	2001:503:a83e::2:30 [srtt 13] [flags 00000000] [ttl 1782]
+;	2001:500:3::42 [srtt 1] [flags 00000000] [ttl 1782]
+;	192.42.93.30 [srtt 0] [flags 00000000] [ttl 1782]
+;	199.4.138.53 [srtt 25024] [flags 00002000] [ttl 1782]
+;	2001:503:83eb::30 [srtt 184473] [flags 00002000] [ttl 1782]
 ;
 ; Bad cache
 ;
@@ -1114,7 +943,7 @@ ns.icann.org.		3577	A	199.4.138.53
 ;
 ; Cache dump of view '_bind' (cache _bind)
 ;
-$DATE 20240329194235
+$DATE 20240329211744
 ;
 ; Address database dump
 ;
